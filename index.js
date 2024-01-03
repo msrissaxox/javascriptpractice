@@ -47,3 +47,13 @@ sum()
 //variable with 1.
 //Run it three times
 
+let lapsCompleted = 0
+
+function totalLapTime(){
+    lapsCompleted = lapsCompleted + 1
+}
+totalLapTime()
+totalLapTime()
+totalLapTime()
+
+console.log(lapsCompleted)
