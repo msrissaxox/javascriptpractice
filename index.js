@@ -17,3 +17,18 @@ function increment(){
     count = count + 1
     console.log(count)
 }
+let lapsCompleted = 0
+
+// Create a function that increments the lapsCompleted variable with one
+// Run it three times
+
+function sumOfLaps(){
+    lapsCompleted = lapsCompleted + 1
+    console.log(lapsCompleted)
+}
+sumOfLaps()
+sumOfLaps()
+sumOfLaps()
+
+
+console.log(lapsCompleted)
