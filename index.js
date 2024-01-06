@@ -1,58 +1,19 @@
+// document.getElementById("count").innerText = 5
+
 //initialize the count as 0
 //listen for clicks on the increment button
 //increment the count variable when the button is clicked
 //change the count-el in the HTML to reflect the new count
 
-function increment() {
-    console.log("The button was clicked")
-}
-
-function countdown(){
-    console.log(5)
-    console.log(4)
-    console.log(3)
-    console.log(2)
-    console.log(1)    
-}
-countdown()
-
-let lapsCompleted = 0
-
-// Create a function that increments the lapsCompleted variable with one
-// Run it three times
-
-function totalLaps() {
-   lapsCompleted = lapsCompleted + 1
-}
-
-totalLaps()
-totalLaps()
-totalLaps()
-
-console.log(lapsCompleted)
-
-
-
-
-
-
-let countEl = document.getElementById("count-el")
-
 let count = 0
 
 function increment(){
-count = count + 1    
-countEl.innerText = count
-console.log(count)
+    console.log("button was clicked")
 }
 
-// Create a function that logs out the sum of all the lap times
-let lap1 = 34
-let lap2 = 33
-let lap3 = 36
 
-function logLapTime(){
-    let lapTime = lap1 + lap2 + lap3
-    console.log(lapTime)
+let count = 0
+function increment(){
+    count = count + 1
+    console.log(count)
 }
-logLapTime()
