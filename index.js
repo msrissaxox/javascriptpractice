@@ -12,6 +12,7 @@ function increment() {
     count = count + 1
     countEl.innerText = count
 }
+
 function save() {
     console.log(count)
 }
@@ -19,27 +20,32 @@ save()
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 let counter = 0
+let countDown = document.getElementById("increment-count")
+let countUp = document.getElementById("increment-count")
 
 function countdown() {
     counter = counter - 1
+    countDown.innerText = counter
 }
+countdown()
+
+function countup() {
+    counter = counter + 1
+    countDown.innerText = counter
+}
+let name = "Marissa"
+console.log(name)
+
+let greeting = "Hi, my name is "
+console.log(greeting)
+
+let myGreeting = greeting + name
+console.log(myGreeting)
+
+
+
+
+
+
 
