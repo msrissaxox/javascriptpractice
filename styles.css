@@ -1,0 +1,10 @@
+.flex {
+    margin-top: 50px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+.left, .right {
+    background-color: rgb(172, 149, 120);
+    
+}
