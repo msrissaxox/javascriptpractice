@@ -34,17 +34,12 @@ function countup() {
     counter = counter + 1
     countDown.innerText = counter
 }
+
 let name = "Marissa"
-console.log(name)
+let welcomeMessage = "Welcome to our counter"
+let message = document.getElementById("welcome-message")
 
-let greeting = "Hi, my name is "
-console.log(greeting)
-
-let myGreeting = greeting + name
-console.log(myGreeting)
-
-
-
+message.innerText = welcomeMessage + ", " + name
 
 
 
