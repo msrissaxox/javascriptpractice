@@ -13,5 +13,5 @@ function increment() {
     countEl.innerText = count
 }
 
-let counter = 0
-fun
+
+
