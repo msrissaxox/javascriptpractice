@@ -25,13 +25,13 @@ let countDown = document.getElementById("increment-count")
 let countUp = document.getElementById("increment-count")
 
 function countdown() {
-    counter = counter - 1
+    counter += - 1
     countDown.innerText = counter
 }
 countdown()
 
 function countup() {
-    counter = counter + 1
+    counter += 1
     countDown.innerText = counter
 }
 
@@ -41,6 +41,6 @@ let message = document.getElementById("welcome-message")
 
 message.innerText = welcomeMessage + ", " + name
 
-
+message.innerText += "👋"
 
 
