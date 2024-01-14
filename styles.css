@@ -5,6 +5,5 @@
    align-items: center;
 }
 .left, .right {
-    background-color: rgb(172, 149, 120);
-    
+    background-color: rgb(136, 80, 122); 
 }
