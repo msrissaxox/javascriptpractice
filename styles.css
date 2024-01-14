@@ -6,8 +6,16 @@ body {
    display: flex;
    justify-content: space-around;
    align-items: center;
+   background-color: rgb(225, 158, 158);
+   width: 80%;
 }
 .left, .right {
     background-color: rgb(136, 80, 122); 
     width: 100px;
+}
+
+.border {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
 }
