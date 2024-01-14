@@ -1,3 +1,6 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
 .flex {
     margin-top: 50px;
    display: flex;
@@ -6,4 +9,5 @@
 }
 .left, .right {
     background-color: rgb(136, 80, 122); 
+    width: 100px;
 }
