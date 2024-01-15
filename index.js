@@ -3,6 +3,7 @@
 
 let count = 0
 let countEl = document.getElementById("count-el")
+let savedIncrements = document.getElementById("saved-increments")
 
 function increment() {
     count = count + 1
@@ -11,7 +12,11 @@ function increment() {
 
 function save() {
     console.log(count)
+    savedIncrements.textContent += count + " - "
 }
+
+
+
 
 //Left and Right counters
 
