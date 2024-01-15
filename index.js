@@ -13,6 +13,8 @@ function increment() {
 function save() {
     console.log(count)
     savedIncrements.textContent += count + " - "
+    count = 0
+    countEl.textContent = 0
 }
 
 
