@@ -1,17 +1,25 @@
 body {
     font-family: "Poppins", sans-serif;
 }
+.border {
+    display: flex;
 
+}
 .flex {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(225, 158, 158);
-    width: 80%;
+
     padding: 0 20px;
 }
 
-.left, .right {
+.left, .right, .save {
     background-color: rgb(136, 80, 122); 
     width: 100px;
+}
+ .save {
+    display: block;
+    color: red;
+    border: solid;
 }

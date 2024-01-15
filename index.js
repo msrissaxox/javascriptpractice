@@ -23,8 +23,10 @@ function save() {
 //Left and Right counters
 
 let counter = 0
-let countDown = document.getElementById("increment-count")
-let countUp = document.getElementById("increment-count")
+let countDown = document.getElementById("increment-count");
+let countUp = document.getElementById("increment-count");
+let savedValue = document.getElementById("saved-value");
+
 
 function countdown() {
     
