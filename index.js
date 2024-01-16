@@ -10,7 +10,7 @@ function increment() {
     countEl.innerText = count
 }
 
-function save() {
+function saves() {
     console.log(count)
     savedIncrements.textContent += count + " - "
     count = 0
