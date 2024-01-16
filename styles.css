@@ -3,6 +3,8 @@ body {
 }
 .border {
     display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
 
 }
 .flex {
@@ -10,7 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: rgb(225, 158, 158);
-
+    width: 400px;
     padding: 0 20px;
 }
 
@@ -19,7 +21,5 @@ body {
     width: 100px;
 }
  .save {
-    display: block;
-    color: red;
-    border: solid;
+    display: inline-flexbox;
 }

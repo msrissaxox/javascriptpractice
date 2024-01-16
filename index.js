@@ -31,17 +31,21 @@ let savedValue = document.getElementById("saved-value");
 function countdown() {
     
     counter -= 1
-    countDown.innerText = counter
+    countDown.textContent = counter
 }
 
 function countup() {
     counter += 1
-    countDown.innerText = counter
+    countDown.textContent = counter
 }
 
-let name = "Marissa"
-let welcomeMessage = "Welcome to our counter"
+function save() {
+    savedValue.textContent = counter
+}
+
+let yourName = prompt ("WELCOME! What is your name?");
+let welcomeMessage = "Welcome to our counter, "
 let message = document.getElementById("welcome-message")
 
-message.innerText = welcomeMessage + ", " + name
+message.innerText = welcomeMessage + ", " + yourName
 message.innerText += "👋"
