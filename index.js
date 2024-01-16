@@ -31,16 +31,18 @@ let savedValue = document.getElementById("saved-value");
 function countdown() {
     
     counter -= 1
-    countDown.textContent = counter
+    countDown.textContent = counter;
 }
 
 function countup() {
     counter += 1
-    countDown.textContent = counter
+    countDown.textContent = counter;
 }
 
 function save() {
-    savedValue.textContent = counter
+    savedValue.textContent += counter + "  ";
+    countDown.textContent = 0
+    countUp.textContent = 0
 }
 
 let yourName = prompt ("WELCOME! What is your name?");
