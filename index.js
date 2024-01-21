@@ -7,7 +7,7 @@ let savedIncrements = document.getElementById("saved-increments")
 
 function increment() {
     count = count + 1
-    countEl.innerText = count
+    countEl.textContent = count
 }
 
 function saves() {
@@ -43,11 +43,12 @@ function save() {
     savedValue.textContent += counter + "  ";
     countDown.textContent = 0
     countUp.textContent = 0
+    counter = 0;
 }
 
 let yourName = prompt ("WELCOME! What is your name?");
 let welcomeMessage = "Welcome to our counter, "
 let message = document.getElementById("welcome-message")
 
-message.innerText = welcomeMessage + ", " + yourName
-message.innerText += "👋"
+message.textContent = welcomeMessage + ", " + yourName
+message.textContent += "👋"
